@@ -339,6 +339,82 @@ export default function Home() {
           <div className="flex flex-wrap items-center gap-3 mb-5">
             <span className="h-px w-8 bg-pink-400" />
             <span className="text-pink-300 font-medium uppercase text-xs tracking-[0.16em]">
+              Healthcare Analytics Project
+            </span>
+            <span className="rounded-full border border-white/10 px-3 py-1 text-xs text-zinc-400">2026</span>
+          </div>
+
+          <h3 className="text-3xl font-bold mb-4">
+            Healthcare Customer Experience Analytics Dashboard
+          </h3>
+
+          <div className="mb-8 overflow-hidden rounded-2xl border border-white/[0.08] bg-zinc-950/40 p-3">
+            <Image
+              src="/images/PowerBi Healthcare.png"
+              alt="Power BI healthcare customer experience analytics dashboard"
+              width={932}
+              height={526}
+              className="max-h-[520px] w-full rounded-xl object-contain"
+            />
+          </div>
+
+          <p className="text-zinc-300 leading-8 mb-6">
+            Developed an interactive Power BI dashboard using synthetic
+            healthcare customer service data to analyse customer contact trends,
+            service performance and customer satisfaction. The dashboard brings
+            together KPI tracking and data visualisation to support operational
+            decision-making.
+          </p>
+
+          <div className="mb-6">
+            <h4 className="text-lg font-semibold text-pink-300 mb-2">Key Features</h4>
+            <ul className="grid gap-x-6 gap-y-1 text-zinc-300 sm:grid-cols-2">
+              <li>Customer contact volume and monthly trend analysis</li>
+              <li>Net Promoter Score (NPS) monitoring</li>
+              <li>Average handling time tracking</li>
+              <li>Contact channel distribution analysis</li>
+              <li>Regional performance comparison</li>
+              <li>Issue resolution rate monitoring</li>
+            </ul>
+          </div>
+
+          <div className="mb-6">
+            <h4 className="text-lg font-semibold text-pink-300 mb-2">Project Outcome</h4>
+            <p className="text-zinc-300 leading-7">
+              The project demonstrates how customer service data can be
+              transformed into actionable insights that support service
+              improvement and performance monitoring within a healthcare
+              environment.
+            </p>
+          </div>
+
+          <div>
+            <h4 className="text-lg font-semibold text-pink-300 mb-3">Technologies &amp; Skills Demonstrated</h4>
+            <div className="flex flex-wrap gap-3">
+              {[
+                "Power BI",
+                "Microsoft Excel",
+                "Data Analytics",
+                "Business Intelligence",
+                "Data Visualization",
+                "KPI Development",
+                "Customer Experience Analytics",
+              ].map((tech) => (
+                <span
+                  key={tech}
+                  className="rounded-full bg-pink-500/10 border border-pink-500/20 px-4 py-2 text-pink-200"
+                >
+                  {tech}
+                </span>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-6 rounded-3xl border border-white/[0.08] hover:border-pink-500/40 transition-all duration-500 bg-white/[0.035] backdrop-blur-sm p-8 md:p-10 hover:-translate-y-1 hover:shadow-[0_30px_100px_rgba(236,72,153,0.08)]">
+          <div className="flex flex-wrap items-center gap-3 mb-5">
+            <span className="h-px w-8 bg-pink-400" />
+            <span className="text-pink-300 font-medium uppercase text-xs tracking-[0.16em]">
               University Mobile Development Project
             </span>
             <span className="rounded-full border border-white/10 px-3 py-1 text-xs text-zinc-400">2025</span>
