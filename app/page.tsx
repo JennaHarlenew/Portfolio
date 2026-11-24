@@ -151,31 +151,27 @@ export default function Home() {
           {[
             {
               category: "Software & UX",
-              skills: ["Next.js", "React", "TypeScript", "JavaScript", "Java", "FastAPI", "API Development", "React Native", "Expo", "REST APIs", "Node.js", "Accessibility (WCAG)", "UX Design", "Frontend Development", "Backend Development", "Testing", "Technical Documentation"],
+              skills: ["Next.js", "React", "TypeScript", "JavaScript", "FastAPI", "React Native", "Expo", "Accessibility (WCAG)", "UX Design", "REST APIs"],
             },
             {
-              category: "Data & AI",
-              skills: ["Python", "SQL", "Power BI", "Microsoft Fabric", "Data Analytics", "AI Development"],
-            },
-            {
-              category: "AI Tools",
+              category: "AI Tools & Productivity",
               skills: ["Microsoft Copilot", "GitHub Copilot", "ChatGPT", "Claude"],
             },
             {
-              category: "Cloud & Platforms",
-              skills: ["Azure", "Azure Administration", "Microsoft Power Platform", "Microsoft 365", "Cloud Computing"],
+              category: "Data & Business Intelligence",
+              skills: ["Python", "SQL", "Power BI", "Microsoft Excel", "Microsoft Fabric", "Data Analytics", "PostgreSQL", "Database Design"],
             },
             {
-              category: "Platforms & Tools",
-              skills: ["Git", "Linux", "Windows", "macOS", "Cybersecurity", "PostgreSQL", "Database Design"],
+              category: "Cloud & Tools",
+              skills: ["Azure", "Azure Administration", "Microsoft Power Platform", "Git"],
             },
             {
               category: "Professional Skills",
-              skills: ["Customer Service", "Communication", "Requirements Analysis", "Problem Solving", "Documentation", "Team Collaboration", "Product Ownership", "Agile Development", "Scrum"],
+              skills: ["Customer Service", "Requirements Analysis", "Problem Solving", "Team Collaboration", "Product Ownership", "Agile Development"],
             },
             {
               category: "Languages",
-              skills: ["Finnish — Native", "English — Fluent", "Swedish — Intermediate"],
+              skills: ["Finnish — Native", "English — Professional working proficiency", "Swedish — Basic"],
             },
           ].map(({ category, skills }) => (
             <div
