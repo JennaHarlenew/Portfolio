@@ -20,7 +20,7 @@ export default function Home() {
           }
         });
       },
-      { threshold: 0.12 }
+      { threshold: 0.01 }
     );
 
     elements.forEach((element) => observer.observe(element));
