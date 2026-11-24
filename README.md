@@ -59,7 +59,7 @@ Live Demo
 
 Portfolio website:
 
-https://portfolio-mu-brown-18.vercel.app
+https://jenna-harle.vercel.app
 
 Contact
 
